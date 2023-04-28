@@ -5,6 +5,8 @@ import ChartFour from '../components/ChartFour';
 import ChartOne from '../components/ChartOne';
 import ChartTwo from '../components/ChartTwo';
 import ChartThree from '../components/ChartThree';
+import ChatCard from '../components/ChatCard';
+
 
 const Chart = () => {
   return (
@@ -18,6 +20,7 @@ const Chart = () => {
         <ChartOne />
         <ChartTwo />
         <ChartThree />
+        <ChatCard/>
       </div>
     </DefaultLayout>
   )

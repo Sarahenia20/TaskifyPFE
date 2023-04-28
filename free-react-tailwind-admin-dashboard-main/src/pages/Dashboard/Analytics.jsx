@@ -2,14 +2,13 @@ import React from 'react';
 import DefaultLayout from '../../layout/DefaultLayout';
 import CardOne from '../../components/CardOne';
 import CardTwo from '../../components/CardTwo';
-import CardThree from '../../components/CardThree'
+import CardThree from '../../components/CardThree';
 import CardFour from '../../components/CardFour';
 import ChatCard from '../../components/ChatCard';
 import TableOne from '../../components/TableOne'
 import ChartOne from '../../components/ChartOne';
 import ChartTwo from '../../components/ChartTwo';
 import ChartThree from '../../components/ChartThree';
-import MapOne from '../../components/MapOne'
 
 const Analytics = () => {
   return (
@@ -25,7 +24,7 @@ const Analytics = () => {
         <ChartOne />
         <ChartTwo />
         <ChartThree />
-        <MapOne />
+      
         <div className='col-span-12 xl:col-span-8'>
           <TableOne />
         </div>

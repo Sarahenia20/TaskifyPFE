@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 import LogoIcon from '../images/logo/logo-icon.svg'
 import DropdownNotification from './DropdownNotification'
-import DropdownMessage from './DropdownMessage'
+// import DropdownMessage from './DropdownMessage'
 import DropdownUser from './DropdownUser'
 import DarkModeSwitcher from './DarkModeSwitcher'
 import { Link } from 'react-router-dom'
@@ -111,7 +111,7 @@ const Header = (
             {/* <!-- Notification Menu Area --> */}
 
             {/* <!-- Chat Notification Area --> */}
-            <DropdownMessage />
+            {/* <DropdownMessage /> */}
             {/* <!-- Chat Notification Area --> */}
           </ul>
 

@@ -13,7 +13,7 @@ const SignIn = () => {
         <div className=' h-screen flex flex-wrap items-center'>
           <div className='hidden w-full xl:block xl:w-1/2'>
             <div className='py-17.5 px-26 text-center'>
-              <Link className='mb-5.5 inline-block' to='/'>
+              <Link className='mb-5.5 inline-block'>
                 <img className='hidden dark:block' src={Logo} alt='Logo' />
                 <img className='dark:hidden' src={LogoDark} alt='Logo' />
               </Link>
@@ -22,10 +22,10 @@ const SignIn = () => {
                 MEDIANET's Task Manger App
               </p>
 
-              <Link to='/'>
+            
               <img  src={cover} alt='Cover' />
 
-              </Link>
+          
             </div>
           </div>
 
@@ -69,7 +69,7 @@ const SignIn = () => {
 
                 <div className='mb-6'>
                   <label className='mb-2.5 block font-medium text-black dark:text-white'>
-                    Re-type Password
+                  Password
                   </label>
                   <div className='relative'>
                     <input

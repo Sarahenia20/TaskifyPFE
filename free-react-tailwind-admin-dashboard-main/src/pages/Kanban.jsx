@@ -1,7 +1,11 @@
 import React from 'react'
-
-export default function Kanban() {
+import DefaultLayout from '../layout/DefaultLayout';
+import Breadcrumb from '../components/Breadcrumb';
+const Kanban = () => {
   return (
-    <div>Kanban</div>
+    <DefaultLayout>
+      <Breadcrumb pageName='Kanban' />    </DefaultLayout>
   )
 }
+
+export default Kanban;
