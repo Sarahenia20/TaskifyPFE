@@ -1,6 +1,4 @@
 import React from 'react';
-import DefaultLayout from '../../layout/DefaultLayout';
-import Breadcrumb from '../../components/Breadcrumb';
 import Logo from '../../images/logo/logo.svg'
 import LogoDark from '../../images/logo/logo-dark.svg'
 import cover from '../../images/logo/logincover.svg'
@@ -101,7 +99,15 @@ const SignIn = () => {
                     </span>
                   </div>
                 </div>
-
+                <div className='mt-6 text-left'>
+                  <p>
+                     Password Forgotten?{' '}
+                    <Link to='/auth/signup' className='text-primary'>
+                      Reset Password
+                    </Link>
+                  </p>
+                </div>
+                <div><br></br></div>
                 <div className='mb-5'>
                   <input
                     type='submit'

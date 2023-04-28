@@ -58,8 +58,8 @@ const Settings = () => {
                           type='text'
                           name='fullName'
                           id='fullName'
-                          placeholder='Devid Jhon'
-                          defaultValue='Devid Jhon'
+                          placeholder='Enter Full Name'
+                          defaultValue=''
                         />
                       </div>
                     </div>
@@ -76,8 +76,8 @@ const Settings = () => {
                         type='text'
                         name='phoneNumber'
                         id='phoneNumber'
-                        placeholder='+990 3343 7865'
-                        defaultValue='+990 3343 7865'
+                        placeholder='Enter phone number'  
+                        defaultValue=''
                       />
                     </div>
                   </div>
@@ -120,28 +120,13 @@ const Settings = () => {
                         type='email'
                         name='emailAddress'
                         id='emailAddress'
-                        placeholder='devidjond45@gmail.com'
-                        defaultValue='devidjond45@gmail.com'
+                        placeholder='Enter Email address' 
+                        defaultValue=''
                       />
                     </div>
                   </div>
 
-                  <div className='mb-5.5'>
-                    <label
-                      className='mb-3 block text-sm font-medium text-black dark:text-white'
-                      htmlFor='Username'
-                    >
-                      Username
-                    </label>
-                    <input
-                      className='w-full rounded border border-stroke bg-gray py-3 px-4.5 text-black focus:border-primary focus-visible:outline-none dark:border-strokedark dark:bg-meta-4 dark:text-white dark:focus:border-primary'
-                      type='text'
-                      name='Username'
-                      id='Username'
-                      placeholder='devidjhon24'
-                      defaultValue='devidjhon24'
-                    />
-                  </div>
+                 
 
                   <div className='mb-5.5'>
                     <label
@@ -188,7 +173,7 @@ const Settings = () => {
                         id='bio'
                         rows='6'
                         placeholder='Write your bio here'
-                        defaultValue='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque posuere fermentum urna, eu condimentum mauris tempus ut. Donec fermentum blandit aliquet.'
+                        defaultValue='TASKIFY is task manager web app for MEDIANET created by Sarah Henia & Sarra Trabelssi PFE 2023 ESSECT '
                       ></textarea>
                     </div>
                   </div>
