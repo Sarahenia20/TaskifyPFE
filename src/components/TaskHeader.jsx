@@ -58,7 +58,7 @@ const TaskHeader = () => {
           <button className='h-9 w-9 rounded-full border-2 border-white dark:border-boxdark'>
             <img src={userTen} alt='User' />
           </button>
-          <button className='flex h-9 w-9 items-center justify-center rounded-full border border-stroke bg-white text-primary dark:border-strokedark dark:bg-[#4f5e77] dark:text-white'>
+          <button className='flex h-9 w-9 items-center justify-center rounded-full border border-stroke bg-white text-secondary dark:border-strokedark dark:bg-[#4f5e77] dark:text-white'>
             <svg
               className='fill-current'
               width='16'

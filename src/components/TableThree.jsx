@@ -39,7 +39,7 @@ const TableThree = () => {
               </td>
               <td className='border-b border-[#eee] py-5 px-4 dark:border-strokedark'>
                 <div className='flex items-center space-x-3.5'>
-                  <button className='hover:text-primary'>
+                  <button className='hover:text-secondary'>
                     <svg
                       className='fill-current'
                       width='18'
@@ -58,7 +58,7 @@ const TableThree = () => {
                       />
                     </svg>
                   </button>
-                  <button className='hover:text-primary'>
+                  <button className='hover:text-secondary'>
                     <svg
                       className='fill-current'
                       width='18'
@@ -85,7 +85,7 @@ const TableThree = () => {
                       />
                     </svg>
                   </button>
-                  <button className='hover:text-primary'>
+                  <button className='hover:text-secondary'>
                     <svg
                       className='fill-current'
                       width='18'
@@ -124,7 +124,7 @@ const TableThree = () => {
               </td>
               <td className='border-b border-[#eee] py-5 px-4 dark:border-strokedark'>
                 <div className='flex items-center space-x-3.5'>
-                  <button className='hover:text-primary'>
+                  <button className='hover:text-secondary'>
                     <svg
                       className='fill-current'
                       width='18'
@@ -143,7 +143,7 @@ const TableThree = () => {
                       />
                     </svg>
                   </button>
-                  <button className='hover:text-primary'>
+                  <button className='hover:text-secondary'>
                     <svg
                       className='fill-current'
                       width='18'
@@ -170,7 +170,7 @@ const TableThree = () => {
                       />
                     </svg>
                   </button>
-                  <button className='hover:text-primary'>
+                  <button className='hover:text-secondary'>
                     <svg
                       className='fill-current'
                       width='18'
@@ -209,7 +209,7 @@ const TableThree = () => {
               </td>
               <td className='border-b border-[#eee] py-5 px-4 dark:border-strokedark'>
                 <div className='flex items-center space-x-3.5'>
-                  <button className='hover:text-primary'>
+                  <button className='hover:text-secondary'>
                     <svg
                       className='fill-current'
                       width='18'
@@ -228,7 +228,7 @@ const TableThree = () => {
                       />
                     </svg>
                   </button>
-                  <button className='hover:text-primary'>
+                  <button className='hover:text-secondary'>
                     <svg
                       className='fill-current'
                       width='18'
@@ -255,7 +255,7 @@ const TableThree = () => {
                       />
                     </svg>
                   </button>
-                  <button className='hover:text-primary'>
+                  <button className='hover:text-secondary'>
                     <svg
                       className='fill-current'
                       width='18'
@@ -294,7 +294,7 @@ const TableThree = () => {
               </td>
               <td className='py-5 px-4'>
                 <div className='flex items-center space-x-3.5'>
-                  <button className='hover:text-primary'>
+                  <button className='hover:text-secondary'>
                     <svg
                       className='fill-current'
                       width='18'
@@ -313,7 +313,7 @@ const TableThree = () => {
                       />
                     </svg>
                   </button>
-                  <button className='hover:text-primary'>
+                  <button className='hover:text-secondary'>
                     <svg
                       className='fill-current'
                       width='18'
@@ -340,7 +340,7 @@ const TableThree = () => {
                       />
                     </svg>
                   </button>
-                  <button className='hover:text-primary'>
+                  <button className='hover:text-secondary'>
                     <svg
                       className='fill-current'
                       width='18'

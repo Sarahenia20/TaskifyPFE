@@ -102,7 +102,7 @@ const SignIn = () => {
                 <div className='mt-6 text-left'>
                   <p>
                      Password Forgotten?{' '}
-                    <Link to='/auth/signup' className='text-primary'>
+                    <Link to='/auth/signup' className='text-secondary'>
                       Reset Password
                     </Link>
                   </p>
@@ -156,7 +156,7 @@ const SignIn = () => {
                 <div className='mt-6 text-center'>
                   <p>
                     Don’t have any account?{' '}
-                    <Link to='/auth/signup' className='text-primary'>
+                    <Link to='/auth/signup' className='text-secondary'>
                       Sign Up
                     </Link>
                   </p>

@@ -13,7 +13,7 @@ const Breadcrumb = (props) => {
           <li>
             <Link to='/'>TASKIFY /</Link>
           </li>
-          <li className='text-primary'>{props.pageName}</li>
+          <li className='text-secondary'>{props.pageName}</li>
         </ol>
       </nav>
     </div>

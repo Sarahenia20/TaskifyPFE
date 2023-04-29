@@ -130,7 +130,7 @@ const Profile = () => {
                 
                 <a
                   href='#'
-                  className='hover:text-primary'
+                  className='hover:text-secondary'
                   name='social-icon'
                   aria-label='social-icon'
                 >
@@ -162,7 +162,7 @@ const Profile = () => {
                 </a>
                 <a
                   href='#'
-                  className='hover:text-primary'
+                  className='hover:text-secondary'
                   name='social-icon'
                   aria-label='social-icon'
                 >
@@ -189,7 +189,7 @@ const Profile = () => {
                 {/* gitub icon */}
                 {/* <a
                   href='#'
-                  className='hover:text-primary'
+                  className='hover:text-secondary'
                   name='social-icon'
                   aria-label='social-icon'
                 >

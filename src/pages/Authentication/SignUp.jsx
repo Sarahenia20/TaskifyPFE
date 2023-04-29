@@ -220,7 +220,7 @@ const SignUp = () => {
                 <div className='mt-6 text-center'>
                   <p>
                     Already have an account?{' '}
-                    <Link to='/auth/signin' className='text-primary'>
+                    <Link to='/auth/signin' className='text-secondary'>
                       Sign in
                     </Link>
                   </p>
