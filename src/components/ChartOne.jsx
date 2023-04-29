@@ -23,7 +23,7 @@ class ChartOne extends Component {
           position: 'top',
           horizontalAlign: 'left',
         },
-        colors: ['#3C50E0', '#80CAEE'],
+        colors: ['#4783fc','#fca503'],
         chart: {
           fontFamily: 'Satoshi, sans-serif',
           height: 335,
@@ -85,7 +85,7 @@ class ChartOne extends Component {
         markers: {
           size: 4,
           colors: '#fff',
-          strokeColors: ['#3056D3', '#80CAEE'],
+          strokeColors: ['#4783fc','#fca503'],
           strokeWidth: 3,
           strokeOpacity: 0.9,
           strokeDashArray: 0,

@@ -16,7 +16,7 @@ class ChartFour extends Component {
         },
       ],
       options: {
-        colors: ['#3C50E0'],
+        colors: ['#ffae52'],
         chart: {
           fontFamily: 'Satoshi, sans-serif',
           type: 'bar',

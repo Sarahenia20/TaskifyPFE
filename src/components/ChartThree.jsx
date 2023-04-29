@@ -12,7 +12,7 @@ class ChartThree extends Component {
           fontFamily: 'Satoshi, sans-serif',
           type: 'donut',
         },
-        colors: ['#3C50E0', '#6577F3', '#8FD0EF', '#0FADCF'],
+        colors: ['#1A50BC', '#ffae52', '#f26ba3', '#6eb4e6'],
         labels: ['Desktop', 'Tablet', 'Mobile', 'Unknown'],
         legend: {
           show: false,
@@ -118,7 +118,7 @@ class ChartThree extends Component {
           </div>
           <div className='w-full px-8 sm:w-1/2'>
             <div className='flex w-full items-center'>
-              <span className='mr-2 block h-3 w-full max-w-3 rounded-full bg-[#6577F3]'></span>
+              <span className='mr-2 block h-3 w-full max-w-3 rounded-full bg-[#1A50BC]'></span>
               <p className='flex w-full justify-between text-sm font-medium text-black dark:text-white'>
                 <span> Tablet </span>
                 <span> 34% </span>
@@ -127,7 +127,7 @@ class ChartThree extends Component {
           </div>
           <div className='w-full px-8 sm:w-1/2'>
             <div className='flex w-full items-center'>
-              <span className='mr-2 block h-3 w-full max-w-3 rounded-full bg-[#8FD0EF]'></span>
+              <span className='mr-2 block h-3 w-full max-w-3 rounded-full bg-[#f26ba3]'></span>
               <p className='flex w-full justify-between text-sm font-medium text-black dark:text-white'>
                 <span> Mobile </span>
                 <span> 45% </span>
@@ -136,7 +136,7 @@ class ChartThree extends Component {
           </div>
           <div className='w-full px-8 sm:w-1/2'>
             <div className='flex w-full items-center'>
-              <span className='mr-2 block h-3 w-full max-w-3 rounded-full bg-[#0FADCF]'></span>
+              <span className='mr-2 block h-3 w-full max-w-3 rounded-full bg-[#ffae52]'></span>
               <p className='flex w-full justify-between text-sm font-medium text-black dark:text-white'>
                 <span> Unknown </span>
                 <span> 12% </span>

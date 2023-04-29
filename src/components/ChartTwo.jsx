@@ -17,7 +17,7 @@ class ChartTwo extends Component {
         },
       ],
       options: {
-        colors: ['#3C50E0', '#80CAEE'],
+        colors: ['#4783fc','#fca503'],
         chart: {
           fontFamily: 'Satoshi, sans-serif',
           type: 'bar',
